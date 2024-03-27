@@ -1,0 +1,1 @@
+console.log("Purple chinese extension is running!");

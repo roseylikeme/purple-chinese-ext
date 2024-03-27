@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Purple Chinese Extension",
+    "version": "1.0",
+		"description": "Right click on Chinese text and open a new tab with the purpleculture.net dictionary",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["script.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tabs",
+        "contextMenus"
+    ]
+}
