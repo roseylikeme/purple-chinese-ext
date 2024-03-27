@@ -1,8 +1,9 @@
 {
     "manifest_version": 3,
     "name": "Purple Chinese Extension",
+    "author": "Roselene Gabun",
     "version": "1.0",
-		"description": "Right click on Chinese text and open a new tab with the purpleculture.net dictionary",
+		"description": "Right click on Chinese text and open a new tab with the purpleculture.net dictionary page for that text.",
     "content_scripts": [
         {
             "matches": [
